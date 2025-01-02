@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Cansın Erdi</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to Cansın Erdi's Personal Page</h1>
+        <p id="greeting"></p>
+        <button id="themeToggle">Toggle Theme</button>
+    </header>
+
+    <main class="container">
+        <section>
+            <h2>👋 About Me</h2>
+            <p>
+                Hi! My name is <strong>Cansın Erdi</strong>. I have a diverse background ranging from architecture and hospitality management to content moderation and IT roles.
+            </p>
+            <p>
+                Currently, I'm an aspiring <strong>Cloud Computing</strong> and <strong>Web Developer</strong>.
+            </p>
+        </section>
+
+        <section>
+            <h2>🎯 My Goals</h2>
+            <ul>
+                <li>Become proficient in Cloud Computing technologies (AWS, Azure, GCP).</li>
+                <li>Build innovative and efficient web applications.</li>
+                <li>Collaborate on exciting projects involving AI and automation.</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>🛠️ My Skills</h2>
+            <ul id="skills-list">
+                <li>HTML, CSS, JavaScript</li>
+                <li>Cloud Platforms: AWS (in progress)</li>
+                <li>Basic SQL and Database Management</li>
+                <li>Linux System Management</li>
+            </ul>
+            <p><strong>Total Skills:</strong> <span id="skillCount"></span></p>
+        </section>
+
+        <section>
+            <h2>💬 Let's Connect</h2>
+            <form id="contactForm">
+                <label for="name">Name:</label>
+                <input type="text" id="name" placeholder="Your Name" required>
+                
+                <label for="message">Message:</label>
+                <textarea id="message" placeholder="Your Message" required></textarea>
+                
+                <button type="submit">Send Message</button>
+            </form>
+            <p id="formFeedback"></p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Cansın Erdi. All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
